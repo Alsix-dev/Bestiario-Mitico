@@ -9,9 +9,6 @@
 body {
     display: grid;
     margin: 0 auto;
-    width: 90%;
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-image: url("img/fondo_inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,8 +23,14 @@ main {
     grid-template-columns: 25% 75%;
 }
 section{
-    padding: 10px 5px 10px 10px;
     border: 2px solid grey;
+    padding: 20px;
+}
+section:not(.Descripcion){
+    margin-left: 40px;
+}
+section:not(.Catalogo){
+    margin-right: 40px;
 }
 a {
     text-decoration: none;
@@ -84,6 +87,7 @@ section.Catalogo{
 section.Descripcion{
     font-family: 'IM Fell English', serif;
     font-style: italic;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 section.Descripcion > ul li{
     display: list-item;

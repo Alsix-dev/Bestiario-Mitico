@@ -10,15 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="Titulo">
-        <h1><a href="index.html">Bestiario Mitico: Criaturas del pasado</a></h1>
-        <p>
-            Explora un vasto bestiario de criaturas legendarias provenientes de mitologías y culturas antiguas alrededor del mundo en un solo lugar.   
-        </p>
-    </section>
-    <main>
+    <nav class="Inicio">
+        <a href="#" id="btnMenu">Menu</a>
+        <a href="#" id="btnSesion">Sesion</a>
+    </nav>
 
-        <section class="Catalogo"><!--Catalogo-->
+    <div id="menuOverlay" class="menuOculto">
+        <div class="menuCaja">
+            <button id="cerrarMenu">X</button>
+            <a href="#home">Inicio</a>
+            <a href="#general">General</a>
+            <a href="#griega">Mitología Griega</a>
+        </div>
+    </div>
 
             <h4 class="griego">Vol. 1: Mitologia Griega</h4>
             <ul class="primerul">
@@ -56,26 +60,9 @@
             </ul>
         </section>
 
-        <section class="Descripcion"><!--Descripcion de mitologias-->
-            <p class="presentacionInicial"><strong>
-                Entre la oscuridad y la luz, estas criaturas tejían las leyendas que aún hoy resuenan en la historia… ¿te atreverías a encontrarlas?
-            </strong></p>
+    </div>
 
-            <h3>Mitologia Griega</h3>
-            <p>
-                Todo comienza por el caos, no hay bestias, no hay destruccion, no hay seres destructores, es solo el vacio.
-                Comienza la era inicial, el nacimiento de Gea(la tierra), Tartaro(El inframundo profundo) y Eros(La fuera de union).
-                <br>
-                La busqueda de respuestas de los humanos para explicar el origen del mundo, 
-                los dioses, los montruos y el comportamiento humano. Cosas que no se llegaban a entender hasta relacionarlos con historias que le dieran sentido.
-            </p>
-            <p>
-                Durante su historia han aparecido criaturas como:
-            </p>
-            <ul>
-                <li>El Minotauro</li>
-                <li>Medusa</li>
-                <li>La Hidra de Lerna</li>
+    <div id="contenido"></div>
 
             </ul>
         </section>
